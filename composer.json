@@ -1,0 +1,25 @@
+{
+  "name": "cmoa/cmoa-static-data",
+  "description": "WordPress plugin to add ability of shortcodes and API to access static JSON files",
+  "version": "1.0.0",
+  "authors": [
+    {
+      "name": "Carney+Co.",
+      "email": "dev.team@carney.co",
+      "homepage": "http://carney.co"
+    },
+    {
+      "name": "Carnegie Museum of Art",
+      "email": "info@cmoa.org",
+      "homepage": "http://github.com/cmoa"
+    }
+  ],
+  "keywords": [
+    "wordpress"
+  ],
+  "require": {
+    "php": ">=5.4",
+    "composer/installers": "~1.0",
+    "mustache/mustache": "~2.5"
+  }
+}

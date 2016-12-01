@@ -4,7 +4,7 @@
  * Description: Serve static data JSON files from shortcodes and API
  * Author: Carney+Co.
  * Author URI: http://carney.co
- * Version: 1.0.1
+ * Version: 1.0.2
  */
 
 /**

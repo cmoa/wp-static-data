@@ -1,4 +1,4 @@
-# WP STATIC DATA v1.0.0
+# WP STATIC DATA v1.0.1
 
 ## About
 

@@ -2,7 +2,7 @@
 
 require_once 'vendor/autoload.php';
 
-class CMOA_Static_Data {
+class WP_Static_Data {
 
   /*
   *  get_static_directory
@@ -73,7 +73,7 @@ class CMOA_Static_Data {
 */
 
 function fetch_api($args) {
-  $static = new CMOA_Static_Data();
+  $static = new WP_Static_Data();
   $data_file = $static->get_static_data($args['file']);
   return $static->format_json($data_file);
 }
@@ -102,7 +102,7 @@ add_action('rest_api_init', function () {
 
 function resolve_shortcode($atts) {
   $a = shortcode_atts(array('format' => 'true'), $atts);
-  $static = new CMOA_Static_Data();
+  $static = new WP_Static_Data();
   $data_file = $static->get_static_data($atts['global']);
 
   if(!$data_file) return '';

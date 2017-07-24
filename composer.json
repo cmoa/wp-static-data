@@ -1,10 +1,10 @@
 {
   "name": "cmoa/wp-static-data",
   "description": "WordPress plugin to add ability of shortcodes and API to access static JSON files",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "authors": [
     {
-      "name": "Carney+Co.",
+      "name": "Carney Dev Team",
       "email": "dev.team@carney.co",
       "homepage": "http://carney.co"
     },

@@ -120,7 +120,12 @@ function resolve_shortcode($atts) {
   $m = new Mustache_Engine(array(
     'loader' => new Mustache_Loader_FilesystemLoader($static->get_static_directory().'views', $options)
   ));
-  return $m->render($view, array($view => $data_file));
+
+  try {
+    return $m->render($view, array($view => $data_file));
+  } catch(Exception $e) {
+    return '';
+  }
 }
 
 add_shortcode('static_data', 'resolve_shortcode');
